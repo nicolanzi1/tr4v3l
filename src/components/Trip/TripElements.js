@@ -49,6 +49,7 @@ export const ProductImg = styled(Img)`
 
   &:hover {
     filter: brightness(100%);
+    transition: 0.4s ease-in-out;
   }
 `
 
