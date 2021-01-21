@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../assets/images/travel-1.jpg",
+        "alt": "Caribbean",
+        "name": "Caribbean",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/travel-2.jpg",
+        "alt": "Paris, France",
+        "name": "Paris, France",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/travel-3.jpg",
+        "alt": "Venezia, Italy",
+        "name": "Venezia, Italy",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/travel-4.jpg",
+        "alt": "Thailand",
+        "name": "Thailand",
+        "button": "View Destination"
+    }
+]
