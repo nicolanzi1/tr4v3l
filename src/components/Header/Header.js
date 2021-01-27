@@ -3,11 +3,11 @@ import { Nav, Bars, NavBtn, NavMenu, NavLink } from "./HeaderElements"
 import { menuData } from "../../data/MenuData"
 import { Button } from "../Button"
 
-const Header = () => {
+const Header = ({ toggle }) => {
   return (
     <Nav>
       <NavLink to="/">TR4V3L</NavLink>
-      <Bars />
+      <Bars onClick={toggle} />
       <NavMenu>
         {menuData.map((item, index) => (
           <NavLink to={item.link} key={index}>
